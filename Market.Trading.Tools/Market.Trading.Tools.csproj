@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Welcome Sithole</Authors>
+    <PackageTags>Forex, Stock, Makert, Trading,Fibonacci</PackageTags>
+    <PackageProjectUrl>https://github.com/SitholeWB/Market.Trading.Tools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SitholeWB/Market.Trading.Tools</RepositoryUrl>
+    <Copyright>https://raw.githubusercontent.com/SitholeWB/Market.Trading.Tools/master/LICENSE</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Library for Forex, Stock, etc trading. It has things like Fibonacci...</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
