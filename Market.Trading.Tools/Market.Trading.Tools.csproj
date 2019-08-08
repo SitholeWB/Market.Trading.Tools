@@ -12,6 +12,8 @@
     <NeutralLanguage>en</NeutralLanguage>
     <Description>Library for Forex, Stock, etc trading. It has things like Fibonacci...</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

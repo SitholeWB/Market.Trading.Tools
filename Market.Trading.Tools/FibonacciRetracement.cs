@@ -15,11 +15,16 @@ namespace Market.Trading.Tools
                 RetracementLevel_23_6 = pointA + Fibonacci.RetracementLevel_23_6 * (pointB - pointA),
                 RetracementLevel_38_2 = pointA + Fibonacci.RetracementLevel_38_2 * (pointB - pointA),
                 RetracementLevel_61_8 = pointA + Fibonacci.RetracementLevel_61_8 * (pointB - pointA),
-                ExtensionLevel_161_8 = pointA + Fibonacci.ExtensionLevel_161_8 * (pointB - pointA),
-                ExtensionLevel_261_8 = pointA + Fibonacci.ExtensionLevel_261_8 * (pointB - pointA),
-                ExtensionLevel_423_6 = pointA + Fibonacci.ExtensionLevel_423_6 * (pointB - pointA),
-                ExtensionLevel_685_4 = pointA + Fibonacci.ExtensionLevel_685_4 * (pointB - pointA),
-                ExtensionLevel_1109 = pointA + Fibonacci.ExtensionLevel_1109 * (pointB - pointA)
+                Extension1_Level_161_8 = pointA + Fibonacci.Extension1_Level_161_8 * (pointB - pointA),
+                Extension2_Level_261_8 = pointA + Fibonacci.Extension2_Level_261_8 * (pointB - pointA),
+                Extension3_Level_423_6 = pointA + Fibonacci.Extension3_Level_423_6 * (pointB - pointA),
+                Extension4_Level_685_4 = pointA + Fibonacci.Extension4_Level_685_4 * (pointB - pointA),
+                Extension5_Level_1109 = pointA + Fibonacci.Extension5_Level_1109 * (pointB - pointA),
+                Extension6_Level_1794_4 = pointA + Fibonacci.Extension6_Level_1794_4 * (pointB - pointA),
+                Extension7_Level_2903_4 = pointA + Fibonacci.Extension7_Level_2903_4 * (pointB - pointA),
+                Extension8_Level_4697_8 = pointA + Fibonacci.Extension8_Level_4697_8 * (pointB - pointA),
+                Extension9_Level_7601_2 = pointA + Fibonacci.Extension9_Level_7601_2 * (pointB - pointA),
+                Extension10_Level_12299 = pointA + Fibonacci.Extension10_Level_12299 * (pointB - pointA)
             }; 
         }
     }
