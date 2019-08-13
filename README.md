@@ -1,5 +1,5 @@
 # Market.Trading.Tools
-This is a library for Forex, Stock, etc. tools like Fibonacci levels
+This is a library for Forex, Stock, etc. tools like Fibonacci, PivotPoints levels
 
 # Get Started
 
