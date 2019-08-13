@@ -3,7 +3,7 @@ This is a library for Forex, Stock, etc. tools like Fibonacci levels
 
 # Get Started
 
-```Install-Package Market.Trading.Tools -Version 1.1.0```
+```Install-Package Market.Trading.Tools```
 
 ### Then call static methods:
 ```
