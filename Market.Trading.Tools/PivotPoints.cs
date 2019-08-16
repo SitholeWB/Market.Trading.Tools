@@ -8,6 +8,14 @@ namespace Market.Trading.Tools
 {
     public static class PivotPoints
     {
+        /// <summary>
+        /// Get commonly known PivotPoints types.
+        /// </summary>
+        /// <param name="high"></param>
+        /// <param name="low"></param>
+        /// <param name="close"></param>
+        /// <param name="type">Type of PivotPoints to get, default is ClassicOrStandard.</param>
+        /// <returns></returns>
         public static PivotLevelsBase GetPivotPointsLevels(double high, double low, double close, PivotPointsType type = PivotPointsType.ClassicOrStandard)
         {
             //https://www.babypips.com/tools/pivot-point-calculator

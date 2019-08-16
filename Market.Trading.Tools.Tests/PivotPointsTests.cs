@@ -16,6 +16,9 @@ namespace Market.Trading.Tools.Tests
         [TestCase(50, 15, 50)]
         [TestCase(1.4787, 1.4737, 1.4787, PivotPointsType.ClassicOrStandard)]
         [TestCase(50, 15, 50, PivotPointsType.Woodie)]
+        [TestCase(50, 15, 50, PivotPointsType.Camarilla)]
+        [TestCase(50, 15, 50, PivotPointsType.Default)]
+        [TestCase(50, 15, 50, PivotPointsType.Fibonacci)]
         public void GetPivotPointsLevels_GivenBullishTrend_ShouldReturnExtensionLevelGreaterThanPointAandB(double high, double low, double close, PivotPointsType type = PivotPointsType.Default)
         {
             //Arrange
