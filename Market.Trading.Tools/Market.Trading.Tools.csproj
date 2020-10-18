@@ -12,8 +12,8 @@
     <NeutralLanguage>en</NeutralLanguage>
     <Description>Library for Forex, Stock, etc trading. It has things like Fibonacci, PivotPoints...</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.1.3</Version>
-    <AssemblyVersion>1.1.3.0</AssemblyVersion>
+    <Version>1.1.4</Version>
+    <AssemblyVersion>1.1.4.0</AssemblyVersion>
     <PackageReleaseNotes>More tools to be added, please feel free to contribute on Github</PackageReleaseNotes>
   </PropertyGroup>
 
