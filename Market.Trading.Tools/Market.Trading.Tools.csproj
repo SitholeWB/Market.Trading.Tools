@@ -5,15 +5,16 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>Welcome Sithole</Authors>
-    <PackageTags>Forex, Stock, Makert, Trading,Fibonacci</PackageTags>
+    <PackageTags>Forex, Stock, Makert, Trading,Fibonacci,PivotPoints</PackageTags>
     <PackageProjectUrl>https://github.com/SitholeWB/Market.Trading.Tools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/SitholeWB/Market.Trading.Tools</RepositoryUrl>
     <Copyright>https://raw.githubusercontent.com/SitholeWB/Market.Trading.Tools/master/LICENSE</Copyright>
     <NeutralLanguage>en</NeutralLanguage>
-    <Description>Library for Forex, Stock, etc trading. It has things like Fibonacci...</Description>
+    <Description>Library for Forex, Stock, etc trading. It has things like Fibonacci, PivotPoints...</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.1.1</Version>
-    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <Version>1.1.3</Version>
+    <AssemblyVersion>1.1.3.0</AssemblyVersion>
+    <PackageReleaseNotes>More tools to be added, please feel free to contribute on Github</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

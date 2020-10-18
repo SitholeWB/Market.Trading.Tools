@@ -6,6 +6,12 @@ namespace Market.Trading.Tools
 {
     public static class FibonacciRetracement
     {
+        /// <summary>
+        /// Get Fibonacci Retracements and Extensions for pure fibonacci levels.
+        /// </summary>
+        /// <param name="pointA"></param>
+        /// <param name="pointB"></param>
+        /// <returns></returns>
         public static FibboLevels GetFibboLevels(double pointA, double pointB)
         {
             return new FibboLevels
@@ -27,5 +33,18 @@ namespace Market.Trading.Tools
                 Extension10_Level_12299 = pointA + Fibonacci.Extension10_Level_12299 * (pointB - pointA)
             }; 
         }
+
+        /// <summary>
+        /// Get Fibonacci Retracement or Extension for given level.
+        /// </summary>
+        /// <param name="pointA"></param>
+        /// <param name="pointB"></param>
+        /// <param name="fibonacciLevel">A decimal value specifying the level (Do not pass it as percentage).</param>
+        /// <returns></returns>
+        public static double GetFibboLevels(double pointA, double pointB, double fibonacciLevel)
+        {
+            return pointA + fibonacciLevel * (pointB - pointA);
+        }
+
     }
 }
